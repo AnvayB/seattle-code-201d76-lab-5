@@ -10,7 +10,7 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
   let sum = a + b;
-  let string = "The sum of " + a + " and " + b + " is " + sum + "."
+  let string = "The sum of " + a + " and " + b + " is " + sum + ".";
   // our array has 2 values, the first is the sum, the second: "The sum of 4 and 7 is 11."
   return [sum, string];
 }
@@ -30,11 +30,13 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
+  let product = a * b;
+  let string2 = "The product of " + a + " and " + b + " is " + product + ".";
 
 }
 
 // Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+testMultiply(5,9);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
