@@ -67,7 +67,7 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
   return [secondSum, secondProd, string3, string4];
 
 }
-console.log(sumAndMultiply(4,7,5));
+//console.log(sumAndMultiply(4,7,5));
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
 testSumAndMultiply(4,7,5);
@@ -95,7 +95,7 @@ function sumArray(sumArr) { //eslint-disable-line
   return [sum2, string];
  
 }
-console.log(sumArray(2,3,4));
+//console.log(sumArray(2,3,4));
 //return an array!!
 
 // Here is the test for sumArray(); uncomment it to run it
@@ -116,11 +116,16 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
+  let prod1 = multiply(2,3)[0];
+  let prod2 = multiply(prod1,4)[0];
 
+  let string = "The numbers " + 2 + "," + 3 + "," + 4 + " have a product of " + prod2 + ".";
+  return [prod2, string];
 }
+//console.log(multiplyArray(2,3,4));
 
 // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray(testArray);
+testMultiplyArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
 
